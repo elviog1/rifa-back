@@ -70,7 +70,8 @@ const rifaControllers ={
             if(update){
                 res.status(200).json({
                     message: "rifa update successfully",
-                    success: true
+                    success: true,
+                    response: update
                 })
             }else{
                 res.status(404).json({
