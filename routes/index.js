@@ -4,7 +4,7 @@ const rifaRouter = require("./rifa")
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.json();
+  res.json({title: "holi"});
 });
 
 router.use("/rifa",rifaRouter)
